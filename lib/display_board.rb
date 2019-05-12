@@ -1,4 +1,4 @@
-board = [" ", " ", "X", " ", "", " ", " ", " ", " "]
+board = [" ", " ", "X", " ", " ", " ", " ", " ", " "]
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
@@ -7,7 +7,7 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
   
-  puts "The first selection is #{board[2]}"
+
 end
 
 display_board(board)
